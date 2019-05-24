@@ -2534,7 +2534,7 @@ input[type=submit].btn-block {
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
+  box-shadow: 0 0 0 .2rem rgb(153, 182, 14)
 }
 
 .btn.disabled,
@@ -2824,7 +2824,7 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
+  box-shadow: 0 0 0 .2rem rgb(153, 182, 14)
 }
 
 .btn-outline-primary {
@@ -3714,7 +3714,7 @@ fieldset:disabled a.btn {
 
 .custom-checkbox .custom-control-input:disabled:checked~.custom-control-label::before,
 .custom-checkbox .custom-control-input:disabled:indeterminate~.custom-control-label::before {
-  background-color: rgba(0, 123, 255, .5)
+  background-color: rgb(153, 182, 14)
 }
 
 .custom-radio .custom-control-label::before {
@@ -3730,7 +3730,7 @@ fieldset:disabled a.btn {
 }
 
 .custom-radio .custom-control-input:disabled:checked~.custom-control-label::before {
-  background-color: rgba(0, 123, 255, .5)
+  background-color: rgb(153, 182, 14)
 }
 
 .custom-select {
