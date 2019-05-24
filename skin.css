@@ -2534,7 +2534,7 @@ input[type=submit].btn-block {
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
+  box-shadow: 0 0 0 .2rem rgb(153, 182, 14)
 }
 
 .btn.disabled,
@@ -2549,14 +2549,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff
+  background-color: #99b60e;
+  border-color: #99b60e
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc
+  background-color: #aacc0c;
+  border-color: #aacc0c
 }
 
 .btn-primary.disabled,
@@ -2570,8 +2570,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0062cc;
-  border-color: #005cbf
+  background-color: #99b60e;
+  border-color: #99b60e
 }
 
 .btn-secondary.focus,
@@ -12566,12 +12566,12 @@ body {
 }
 
 .tyler .btn.btn-primary {
-  background-color: #1078c0;
+  background-color: #99b60e;
   color: #fff !important
 }
 
 .tyler .btn.btn-primary:hover {
-  background-color: #4093cd
+  background-color: #aacc0c
 }
 
 .tyler .btn.btn-secondary {
