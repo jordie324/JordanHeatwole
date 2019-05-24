@@ -17205,10 +17205,8 @@ body {
 }
 
 .tyler .download-bar .whitepaper {
-  background-image: url(img/get-bg-mobile.png);
+  background: #fd6d4c;
   font-size: 18px;
-  background-repeat: repeat-x;
-  background-position: bottom center;
   width: 100%
 }
 
@@ -17219,8 +17217,7 @@ body {
     padding: 0
   }
   .tyler .download-bar .whitepaper {
-    background-image: url(img/whitepaper-bg.png);
-    background-position: right;
+    background: #fd6d4c;
     padding-right: 15px !important;
     width: auto;
     min-width: 25%
