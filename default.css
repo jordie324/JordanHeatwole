@@ -76,13 +76,13 @@ html, button, input, select, textarea {
      */
 
 ::-moz-selection {
-    background: rgba(2,139,255,1); /* blue */
+    background: rgb(153, 182, 14); /* blue */
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: rgba(2,139,255,1); /* blue */
+    background: rgb(153, 182, 14); /* blue */
     color: #fff;
     text-shadow: none;
 }
