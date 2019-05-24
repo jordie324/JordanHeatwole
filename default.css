@@ -2555,8 +2555,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #deb406;
-  border-color: #deb406
+  background-color: #aacc0c;
+  border-color: #aacc0c
 }
 
 .btn-primary.disabled,
@@ -12566,12 +12566,12 @@ body {
 }
 
 .tyler .btn.btn-primary {
-  background-color: #1078c0;
+  background-color: #99b60e;
   color: #fff !important
 }
 
 .tyler .btn.btn-primary:hover {
-  background-color: #4093cd
+  background-color: #aacc0c
 }
 
 .tyler .btn.btn-secondary {
