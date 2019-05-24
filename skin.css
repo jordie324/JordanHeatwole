@@ -2534,7 +2534,7 @@ input[type=submit].btn-block {
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 .2rem rgb(153, 182, 14)
+  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
 }
 
 .btn.disabled,
@@ -2549,14 +2549,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #99b60e;
-  border-color: #99b60e
+  background-color: #007bff;
+  border-color: #007bff
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #aacc0c;
-  border-color: #aacc0c
+  background-color: #0069d9;
+  border-color: #0062cc
 }
 
 .btn-primary.disabled,
@@ -2570,8 +2570,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #99b60e;
-  border-color: #99b60e
+  background-color: #0062cc;
+  border-color: #005cbf
 }
 
 .btn-secondary.focus,
@@ -12288,14 +12288,14 @@ a.text-dark:hover {
 @font-face {
   font-family: Amplitude;
   font-display: swap;
-  src: url(fonts/Amplitude-Regular.ttf) format('truetype');
+  src: url(https://tylertech.com/Portals/_default/skins/tylerskin/fonts/Amplitude-Regular.ttf) format('truetype');
   font-style: normal
 }
 
 @font-face {
   font-family: Amplitude;
   font-display: swap;
-  src: url(fonts/Amplitude-Light.ttf) format('truetype');
+  src: url(https://tylertech.com/Portals/_default/skins/tylerskin/fonts/Amplitude-Light.ttf) format('truetype');
   font-weight: 200;
   font-style: normal
 }
@@ -12303,7 +12303,7 @@ a.text-dark:hover {
 @font-face {
   font-family: Amplitude;
   font-display: swap;
-  src: url(fonts/Amplitude-Book.ttf) format('truetype');
+  src: url(https://tylertech.com/Portals/_default/skins/tylerskin/fonts/Amplitude-Book.ttf) format('truetype');
   font-weight: 300;
   font-style: normal
 }
@@ -12311,7 +12311,7 @@ a.text-dark:hover {
 @font-face {
   font-family: Amplitude;
   font-display: swap;
-  src: url(fonts/Amplitude-Bold.ttf) format('truetype');
+  src: url(https://tylertech.com/Portals/_default/skins/tylerskin/fonts/Amplitude-Bold.ttf) format('truetype');
   font-weight: 700;
   font-style: normal
 }
@@ -12319,7 +12319,7 @@ a.text-dark:hover {
 @font-face {
   font-family: Amplitude;
   font-display: swap;
-  src: url(fonts/Amplitude-Black.ttf) format('truetype');
+  src: url(https://tylertech.com/Portals/_default/skins/tylerskin/fonts/Amplitude-Black.ttf) format('truetype');
   font-weight: 800;
   font-style: normal
 }
@@ -12327,14 +12327,14 @@ a.text-dark:hover {
 @font-face {
   font-family: TradeGothic;
   font-display: swap;
-  src: url(fonts/TradeGothic.ttf) format('truetype');
+  src: url(https://tylertech.com/Portals/_default/skins/tylerskin/fonts/TradeGothic.ttf) format('truetype');
   font-style: normal
 }
 
 @font-face {
   font-family: TradeGothic;
   font-display: swap;
-  src: url(fonts/TradeGothicBold.ttf) format('truetype');
+  src: url(https://tylertech.com/Portals/_default/skins/tylerskin/fonts/TradeGothicBold.ttf) format('truetype');
   font-weight: 700;
   font-style: normal
 }
@@ -12548,7 +12548,7 @@ body {
   display: block;
   width: 6px;
   height: 10px;
-  background: url(img/btn-hover.png);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/btn-hover.png);
   position: absolute;
   right: 50px;
   top: 50% !important;
@@ -12566,12 +12566,12 @@ body {
 }
 
 .tyler .btn.btn-primary {
-  background-color: #99b60e;
+  background-color: #1078c0;
   color: #fff !important
 }
 
 .tyler .btn.btn-primary:hover {
-  background-color: #aacc0c
+  background-color: #4093cd
 }
 
 .tyler .btn.btn-secondary {
@@ -12651,7 +12651,7 @@ body {
   display: inline-block;
   width: 6px;
   height: 11px;
-  background: url(img/icon-right-arrow.png);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/icon-right-arrow.png);
   margin-left: 10px
 }
 
@@ -12660,7 +12660,7 @@ body {
 }
 
 .tyler .icon-social {
-  background: url(img/icon-social.png) no-repeat
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/icon-social.png) no-repeat
 }
 
 .tyler .icon-social.twitter {
@@ -12720,7 +12720,7 @@ body {
 }
 
 .tyler .list-feature-overview.green .checkmark {
-  background-image: url(img/checkmark-green.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/checkmark-green.png);
   width: 32px;
   height: 32px;
   margin-right: 15px;
@@ -12759,7 +12759,7 @@ body {
 }
 
 .tyler .list-feature-overview li .checkmark {
-  background-image: url(img/checkmark.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/checkmark.png);
   height: 43px;
   width: 43px;
   margin-right: 15px;
@@ -12791,7 +12791,7 @@ body {
 }
 
 .tyler .support-list li:hover {
-  background: url(img/btn-hover.png) 95% center no-repeat #f5fafc
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/btn-hover.png) 95% center no-repeat #f5fafc
 }
 
 .tyler .support-list li .btn {
@@ -12832,7 +12832,7 @@ body {
 
 .tyler .highlights ul li:before {
   content: " ";
-  background-image: url(img/checkmark-green.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/checkmark-green.png);
   width: 32px;
   height: 32px;
   margin-right: 15px;
@@ -12963,7 +12963,7 @@ body {
   left: 0;
   top: 0;
   z-index: 999;
-  content: url(img/checkbox.png);
+  content: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/checkbox.png);
   -moz-appearance: none;
   -webkit-appearance: none
 }
@@ -12986,7 +12986,7 @@ body {
   left: 0;
   top: 0;
   z-index: 999;
-  content: url(img/check.png);
+  content: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/check.png);
   -moz-appearance: none;
   -webkit-appearance: none
 }
@@ -13047,7 +13047,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   padding: 15px !important;
-  background-image: url(img/dropdown.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/dropdown.png);
   background-position: 97% center;
   background-repeat: no-repeat;
   -moz-appearance: none;
@@ -13144,7 +13144,7 @@ body {
   display: block;
   width: 6px;
   height: 10px;
-  background: url(img/btn-hover.png);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/btn-hover.png);
   position: absolute;
   right: 25px;
   top: 20px;
@@ -13192,7 +13192,7 @@ body {
   display: block;
   width: 6px;
   height: 10px;
-  background: url(img/btn-hover.png);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/btn-hover.png);
   position: absolute;
   right: 25px;
   top: 20px;
@@ -13262,7 +13262,7 @@ body {
   display: block;
   width: 6px;
   height: 10px;
-  background: url(img/btn-hover.png);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/btn-hover.png);
   position: absolute;
   right: 50px;
   top: 50% !important;
@@ -13887,13 +13887,13 @@ body {
 }
 
 .tyler .ctas.questions {
-  background-image: url(img/questions-bg.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/questions-bg.png);
   background-repeat: no-repeat;
   background-position: left bottom
 }
 
 .tyler .ctas.download {
-  background-image: url(img/download-bg.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/download-bg.png);
   background-repeat: no-repeat;
   background-position: center bottom !important
 }
@@ -14109,7 +14109,7 @@ body {
 }
 
 .tyler .video .video-thumbnail:before {
-  background: url(img/icon-play.png) center no-repeat rgba(0, 0, 0, .3);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/icon-play.png) center no-repeat rgba(0, 0, 0, .3);
   width: 100%;
   height: 100%;
   display: block;
@@ -14198,7 +14198,7 @@ body {
 
 .tyler .quoteblock {
   background-size: cover;
-  background-image: url(img/bg-circle-overlay.jpg?format=jpg&quality=80);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-circle-overlay.jpg?format=jpg&quality=80);
   color: #fff;
   padding: 7rem 25px;
   background-position: center
@@ -14226,7 +14226,7 @@ body {
   content: " ";
   width: 41px;
   height: 30px;
-  background-image: url(img/icon-quote.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/icon-quote.png);
   display: block;
   margin-bottom: 20px
 }
@@ -14596,7 +14596,7 @@ body {
   display: inline-block;
   width: 6px;
   height: 11px;
-  background: url(img/icon-right-arrow.png);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/icon-right-arrow.png);
   transition: all .3s ease-in-out;
   margin-left: 10px
 }
@@ -14701,7 +14701,7 @@ body {
   grid-row-start: 4;
   grid-row-end: 4;
   margin: 0 auto;
-  background-image: url(img/dot.svg);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/dot.svg);
   background-size: contain;
   width: 20px;
   height: 20px
@@ -14807,7 +14807,7 @@ body {
   display: inline-block;
   content: "";
   border: none;
-  background-image: url(img/nav-dropdown.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/nav-dropdown.png);
   background-position: right;
   height: 7px;
   width: 11px;
@@ -15093,7 +15093,7 @@ body {
   justify-content: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url(img/green-bg.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/green-bg.png);
   background-position: top right;
   background-repeat: no-repeat;
   padding: 30px;
@@ -15241,7 +15241,7 @@ body {
 }
 
 .tyler .subscribe-jumbotron {
-  background-image: url(img/poly-top.png), url(img/poly-bottom.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/poly-top.png), url(https://tylertech.com/Portals/_default/skins/tylerskin/img/poly-bottom.png);
   background-position: top left, bottom right;
   background-repeat: no-repeat, no-repeat;
   min-height: 255px;
@@ -15407,7 +15407,7 @@ body {
 }
 
 .tyler .unlock-box {
-  background-image: url(img/unlock-bg.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/unlock-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25px;
@@ -15535,7 +15535,7 @@ body {
   justify-content: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url(img/blue-bg.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/blue-bg.png);
   background-position: top right;
   background-repeat: no-repeat;
   padding: 30px;
@@ -15828,7 +15828,7 @@ body {
 
 .tyler nav .nav-link:after {
   border: none;
-  background-image: url(img/nav-dropdown.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/nav-dropdown.png);
   background-position: right;
   height: 7px;
   width: 11px;
@@ -16157,7 +16157,7 @@ body {
 }
 
 .tyler .search:before {
-  background-image: url(img/icon-nav-search.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/icon-nav-search.png);
   width: 50px;
   background-position: center;
   background-repeat: no-repeat;
@@ -16201,7 +16201,7 @@ body {
   display: block;
   width: 6px;
   height: 10px;
-  background: url(img/btn-hover.png);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/btn-hover.png);
   position: absolute;
   right: 25px;
   top: 14px;
@@ -16512,7 +16512,7 @@ body {
     border-right: 1px solid rgba(47, 158, 192, .2)
   }
   .tyler .content-block-with-side-image .leftpane.istimeline:after {
-    content: url(img/dot.svg);
+    content: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/dot.svg);
     display: block;
     position: absolute;
     top: -10px;
@@ -16650,7 +16650,7 @@ body {
 }
 
 .tyler .colored-title-gray-bg h2 {
-  background-image: url(img/bgcircle-overlay-container-title-01.png), url(img/bgcircle-overlay-container-title-03.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bgcircle-overlay-container-title-01.png), url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bgcircle-overlay-container-title-03.png);
   background-repeat: no-repeat;
   background-position: left, right;
   background-color: #3fa4c0;
@@ -16715,7 +16715,7 @@ body {
 }
 
 .tyler .teal-bg-image {
-  background-image: url(img/bg-circle-overlay.jpg?format=jpg&quality=80);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-circle-overlay.jpg?format=jpg&quality=80);
   background-position: center center;
   border-radius: 15px;
   padding: 12px;
@@ -17023,7 +17023,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     position: relative;
-    content: url(img/icon-menu-arrow-green.png)
+    content: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/icon-menu-arrow-green.png)
   }
 }
 
@@ -17068,7 +17068,7 @@ body {
 }
 
 .tyler .get-started-bar .get {
-  background-image: url(img/get-bg-mobile.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/get-bg-mobile.png);
   background-repeat: repeat-x;
   background-position: 38% bottom;
   grid-area: get;
@@ -17092,7 +17092,7 @@ body {
 
 @media screen and (min-width:768px) {
   .tyler .get-started-bar .get {
-    background-image: url(img/get-bg.png);
+    background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/get-bg.png);
     background-repeat: repeat-y;
     background-position: right center;
     width: auto;
@@ -17205,8 +17205,10 @@ body {
 }
 
 .tyler .download-bar .whitepaper {
-  background: #fd6d4c;
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/get-bg-mobile.png);
   font-size: 18px;
+  background-repeat: repeat-x;
+  background-position: bottom center;
   width: 100%
 }
 
@@ -17217,7 +17219,8 @@ body {
     padding: 0
   }
   .tyler .download-bar .whitepaper {
-    background: #fd6d4c;
+    background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/whitepaper-bg.png);
+    background-position: right;
     padding-right: 15px !important;
     width: auto;
     min-width: 25%
@@ -18000,7 +18003,7 @@ body {
 .tyler .ask-a-question {
   transition: .6s all ease;
   opacity: 0;
-  background: url(img/bg-circle-overlay.jpg?format=jpg&quality=80);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-circle-overlay.jpg?format=jpg&quality=80);
   background-size: cover;
   height: auto
 }
@@ -18274,7 +18277,7 @@ body {
 .tyler .entry-module ul li.markets .subtitle:after {
   display: inline-block;
   position: relative;
-  content: url(img/icon-menu-arrow-green.png);
+  content: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/icon-menu-arrow-green.png);
   transition: all .5s;
   vertical-align: middle
 }
@@ -18362,7 +18365,7 @@ body {
   min-height: 100vh;
   bottom: initial !important;
   overflow: auto;
-  background-image: url(img/modal-bg.png?format=jpg&quality=80);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/modal-bg.png?format=jpg&quality=80);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat
@@ -18523,7 +18526,7 @@ body {
   display: block;
   width: 6px;
   height: 10px;
-  background: url(img/btn-hover.png);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/btn-hover.png);
   position: absolute;
   right: 25px;
   top: 20px;
@@ -18684,7 +18687,7 @@ body {
 
 .tyler .ModTylerEventsSearchC .dnnSearchBox:before {
   content: " ";
-  background-image: url(img/icon-nav-search.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/icon-nav-search.png);
   width: 50px;
   height: 24px;
   background-position: center;
@@ -18745,7 +18748,7 @@ body {
   display: block;
   width: 6px;
   height: 10px;
-  background: url(img/btn-hover.png);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/btn-hover.png);
   position: absolute;
   left: 50px;
   top: 39% !important;
@@ -18841,7 +18844,7 @@ body {
 }
 
 .tyler .cognito .c-forms-progress ol li.c-page-selected:after {
-  content: url(img/dot.svg);
+  content: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/dot.svg);
   display: block;
   position: absolute;
   -webkit-filter: grayscale(0);
@@ -18896,7 +18899,7 @@ body {
   height: auto;
   margin: -1px 4px 0 0;
   vertical-align: middle;
-  background: url(img/uncheck.png) 13px center no-repeat #fff;
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/uncheck.png) 13px center no-repeat #fff;
   cursor: pointer;
   padding: 25px 25px 25px 60px;
   border: 1px solid #8a929b;
@@ -18911,7 +18914,7 @@ body {
 
 .tyler .cognito .c-choice-radiobuttons input[type=radio]:checked+span {
   font-family: TradeGothic, Sans-serif;
-  background: url(img/checked.png) 13px center no-repeat;
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/checked.png) 13px center no-repeat;
   color: #8a929b;
   padding-left: 60px;
   background-size: 20px;
@@ -19124,7 +19127,7 @@ body {
 }
 
 .tyler .cognito.c-med .c-html ul li:before {
-  content: url(img/checkmark.png);
+  content: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/checkmark.png);
   height: 43px;
   width: 43px;
   display: block;
@@ -19171,7 +19174,7 @@ body {
   display: block;
   width: 6px;
   height: 10px;
-  background: url(img/btn-hover.png);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/btn-hover.png);
   position: absolute;
   right: 50px;
   transition: all .3s ease-in-out
@@ -19199,7 +19202,7 @@ body {
 }
 
 .tyler .dnnDynReg .dnnRadiobutton img {
-  background: url(img/radiobutton.png) no-repeat
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/radiobutton.png) no-repeat
 }
 
 .tyler .dnnDynReg .dnnRadiobutton.dnnRadiobutton-checked img {
@@ -19236,7 +19239,7 @@ body {
 .tyler .dnnDynReg .tblDynamicRegFields .DynamicRegistration_QuestionTable .DynamicRegistration_QuestionTableRow .DynamicRegistration_QuestionTableCell select {
   color: #1078c0;
   font-weight: 600;
-  background-image: url(img/dropdown.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/dropdown.png);
   background-position: 97% center;
   background-repeat: no-repeat;
   -moz-appearance: none;
@@ -19302,7 +19305,7 @@ body {
   display: block;
   width: 6px;
   height: 10px;
-  background: url(img/btn-hover.png);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/btn-hover.png);
   position: absolute;
   right: 50px;
   transition: all .3s ease-in-out;
@@ -19676,7 +19679,7 @@ body {
   display: block;
   width: 6px;
   height: 10px;
-  background: url(img/btn-hover.png);
+  background: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/btn-hover.png);
   position: absolute;
   right: 50px;
   transition: all .3s ease-in-out
@@ -19734,15 +19737,15 @@ body {
 }
 
 .tyler .bg-blue-circles-bottom {
-  background-image: url(img/bg-blue-circles-bottom.png)
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-blue-circles-bottom.png)
 }
 
 .tyler .bg-gray-circles-bottom {
-  background-image: url(img/bg-gray-circles-bottom.png)
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-gray-circles-bottom.png)
 }
 
 .tyler .bg-gray-circles-bottom-top-right {
-  background-image: url(img/bg-gray-circles-top-right.png), url(img/bg-gray-circles-bottom-right.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-gray-circles-top-right.png), url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-gray-circles-bottom-right.png);
   background-position: top right, bottom right;
   background-repeat: no-repeat, no-repeat;
   background-size: contain
@@ -19758,7 +19761,7 @@ body {
 }
 
 .tyler .bg-white-circles-top-left-right {
-  background-image: url(img/bg-white-circles-top-left.png), url(img/bg-white-circles-top-right.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-white-circles-top-left.png), url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-white-circles-top-right.png);
   background-position: top left, top right;
   background-repeat: no-repeat, no-repeat;
   background-size: contain;
@@ -19772,7 +19775,7 @@ body {
 }
 
 .tyler .bg-blue-circles-top-right {
-  background-image: url(img/bg-blue-circles-top-right.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-blue-circles-top-right.png);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain
@@ -19785,7 +19788,7 @@ body {
 }
 
 .tyler .bg-blue-circles-bottom-right {
-  background-image: url(img/bg-blue-circles-bottom-right.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-blue-circles-bottom-right.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: contain
@@ -19805,15 +19808,15 @@ body {
 }
 
 .tyler .bg-gray-circles-top {
-  background-image: url(img/bg-gray-circles-top.png)
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-gray-circles-top.png)
 }
 
 .tyler .bg-blue-circles-top {
-  background-image: url(img/bg-blue-circles-top.png)
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-blue-circles-top.png)
 }
 
 .tyler .bg-gray-circles-top-right {
-  background-image: url(img/bg-gray-circles-top-right.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-gray-circles-top-right.png);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain
@@ -19826,7 +19829,7 @@ body {
 }
 
 .tyler .bg-gray-circles-bottom-right {
-  background-image: url(img/bg-gray-circles-bottom-right.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-gray-circles-bottom-right.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: contain
@@ -19856,7 +19859,7 @@ body {
 }
 
 .tyler .bg-almost-black-circles-top-bottom {
-  background-image: url(img/bg-almost-black-circles-top-bottom.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/bg-almost-black-circles-top-bottom.png);
   background-color: #30333a;
   background-size: contain;
   padding: 5em 0
@@ -19867,7 +19870,7 @@ body {
 }
 
 .tyler .many-blue-circles-bottom {
-  background-image: url(img/many-blue-circles-bottom.png);
+  background-image: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/many-blue-circles-bottom.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain
@@ -20120,7 +20123,7 @@ html {
 .ie13 .cognito .c-forms-progress ol li.c-page-selected:after,
 .ie14 .cognito .c-forms-progress ol li.c-page-selected:after,
 .ie15 .cognito .c-forms-progress ol li.c-page-selected:after {
-  content: url(img/dot.svg);
+  content: url(https://tylertech.com/Portals/_default/skins/tylerskin/img/dot.svg);
   display: block;
   position: absolute;
   -webkit-filter: grayscale(0);
@@ -20774,16 +20777,21 @@ html {
 .ie13 .ctas,
 .ie14 .ctas,
 .ie15 .ctas {
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
   text-align: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  height: 100%
+  -ms-grid-columns: 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr
+}
+
+.ie11 .ctas h3,
+.ie12 .ctas h3,
+.ie13 .ctas h3,
+.ie14 .ctas h3,
+.ie15 .ctas h3 {
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-row-align: center;
+  -ms-grid-column-align: center
 }
 
 .ie11 .ctas p,
@@ -20791,16 +20799,21 @@ html {
 .ie13 .ctas p,
 .ie14 .ctas p,
 .ie15 .ctas p {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex: 1;
-  flex: 1;
-  height: auto;
-  padding: 15px 0
+  -ms-grid-column: 1;
+  -ms-grid-row: 2;
+  -ms-grid-row-align: center;
+  -ms-grid-column-align: center
+}
+
+.ie11 .ctas .btn,
+.ie12 .ctas .btn,
+.ie13 .ctas .btn,
+.ie14 .ctas .btn,
+.ie15 .ctas .btn {
+  -ms-grid-column: 1;
+  -ms-grid-row: 3;
+  -ms-grid-row-align: center;
+  -ms-grid-column-align: center
 }
 
 .ie11 .inner-page-hero .inner-container .title,
