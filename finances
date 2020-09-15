@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+    <h2>Income</h2>
+    <table>
+        <tr>
+            <th><input placeholder="Income 1" type="text"></th>
+            </tr>
+        <tr>
+            <td><input placeholder="$123.00" type="number"></td>
+            </tr>
+        </table>
+</body>
+</html>
