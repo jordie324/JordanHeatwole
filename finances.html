@@ -7,13 +7,17 @@
 
 <body>
     <h2>Income</h2>
+    <form oninput="IncomeTotal.value=Income1Value">
     <table>
         <tr>
-            <th><input placeholder="Income 1" type="text"></th>
+            <th><input placeholder="Income 1" id="Income1Name" name="Income1Name" type="text"></th>
             </tr>
         <tr>
-            <td><input placeholder="$123.00" type="number"></td>
+            <td><input placeholder="$123.00" type="number" id="Income1Value" name="Income1Value" step=".01"></td>
             </tr>
+        <tr>
+            <td>Total: <output name="IncomeTotal" for="Income1Value"></output></td>
         </table>
+    </form>
 </body>
 </html>
