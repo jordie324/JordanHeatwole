@@ -1,0 +1,123 @@
+﻿.trust-validator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4f3f9;
+    border-top: 2px solid #e6e5eb;
+    margin-top: 40px;
+
+    &.pt {
+        padding-top: 40px;
+    }
+
+    .sec-title {
+        width: auto;
+        min-height: 37px;
+        border-radius: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 0 25px;
+        position: relative;
+        visibility: hidden;
+        bottom: 18px;
+
+        .Head {
+            margin-bottom: 0;
+        }
+
+        @media @tablet-up {
+            min-width: 349px;
+            bottom: 58px;
+        }
+    }
+
+    &.m-0 {
+        padding: 0 0 20px 0 !important;
+    }
+
+    &.gray {
+        background-color: #edeff0 !important;
+        border-top: 2px solid #d1d2da !important;
+
+        .sec-title {
+            visibility: visible !important;
+            background-color: #8a929b;
+            color: #ffffff;
+
+            @media @tablet-up {
+                top: -21px;
+            }
+        }
+    }
+
+    &.teal {
+        background-color: #e9f4f6 !important;
+        border-top: 2px solid #b0d7de !important;
+
+        .sec-title {
+            visibility: visible !important;
+            background-color: #2e9fbf;
+            color: #ffffff;
+
+            @media @tablet-up {
+                top: -21px;
+            }
+        }
+    }
+}
+
+.trust-validator-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 40px 0;
+    background-color: #f4f3f9;
+    border-bottom: 2px solid #e6e5eb;
+    margin-bottom: 25px;
+
+    &.m-0 {
+        padding: 0 0 20px 0 !important;
+    }
+
+    .logos {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 100%;
+        flex-flow: wrap;
+        align-items: center;
+
+        @media @tablet-up {
+            justify-content: space-around;
+            width: 90%;
+            position: relative;
+        }
+
+        .containerPane {
+            width: 100%;
+        }
+    }
+
+    img {
+        height: auto;
+        width: auto;
+        max-width: 150px;
+        margin: 10px;
+    }
+
+    &.gray {
+        background-color: #edeff0 !important;
+        border-bottom: 2px solid #d1d2da !important;
+    }
+
+    &.teal {
+        background-color: #e9f4f6 !important;
+        border-bottom: 2px solid #b0d7de !important;
+    }
+}

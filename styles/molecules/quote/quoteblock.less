@@ -1,0 +1,36 @@
+﻿.quoteblock {
+    background-size: cover;
+    background-image: url('img/bg-circle-overlay.jpg?format=jpg&quality=80');
+    color: white;
+    padding: 7rem 25px;
+    background-position: center;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+
+    .title {
+        font-family: @font-family-alternate;
+        font-weight: 300;
+        color: white;
+
+        &:before {
+            content: " ";
+            width: 41px;
+            height: 30px;
+            background-image: url('img/icon-quote.png');
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+
+    p {
+        margin-bottom: 0px;
+        color: white;
+    }
+}

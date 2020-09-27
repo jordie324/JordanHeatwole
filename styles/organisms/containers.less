@@ -1,0 +1,184 @@
+.colored-title-gray-bg {
+    margin-bottom: 30px;
+
+    h2 {
+        background-image: url(img/bgcircle-overlay-container-title-01.png), url(img/bgcircle-overlay-container-title-03.png);
+        background-repeat: no-repeat;
+        background-position: left, right;
+        background-color: #3fa4c0;
+        border-radius: 10px 10px 0 0;
+        padding: 6px 23px;
+        margin: 0;
+
+        .Head {
+            color: white;
+            font-family: @font-family-alternate;
+            font-weight: 300;
+            font-size: 22px;
+            font-weight: 400;
+        }
+    }
+
+    .containerPane {
+        border: 1px solid #d1d2da;
+        background-color: #f3f3f8;
+        border-radius: 0 0 10px 10px;
+        padding: 40px 25px;
+
+        div {
+            color: #75777e;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        ul {
+            list-style: disc;
+        }
+
+        strong {
+            color: #2f9fc0;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.35px;
+            text-transform: uppercase;
+        }
+    }
+
+    .generic-cta {
+        .description {
+            * {
+                color: #75777e !important;
+            }
+        }
+    }
+}
+
+.container-black {
+    background-color: #30333a;
+    padding: 35px 0;
+
+    .Head {
+        color: white;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 19px;
+        display: block;
+    }
+
+    @media @desktop-up {
+        padding: 90px 0;
+
+        .Head {
+            font-size: 36px;
+            margin-bottom: 38px;
+        }
+    }
+}
+
+.teal-bg-image {
+    background-image: url('img/bg-circle-overlay.jpg?format=jpg&quality=80');
+    background-size: 200%;
+    background-position: center center;
+    border-radius: 15px;
+    padding: 12px;
+    color: white !important;
+    margin-bottom: 30px;
+    background-size: cover;
+
+    @media @desktop-up {
+        padding: 25px;
+    }
+
+    .containerPane, .Normal {
+        color: white;
+        font-size: 15px;
+    }
+
+    .Head {
+        font-size: 22px;
+        font-weight: 300;
+        font-family: @font-family-alternate;
+        margin-bottom: 15px;
+        color: white;
+    }
+
+    .contact-box {
+        em, .grid-title, .grid-content {
+            color: white !important;
+        }
+    }
+
+    a {
+        color: white;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .btn {
+        width: 100%;
+        padding: 13px;
+        white-space: normal;
+        line-height: normal;
+
+        &:hover {
+            text-decoration: none;
+
+            &:after {
+                opacity: 0 !important;
+            }
+        }
+    }
+
+    input.Head {
+        background: transparent;
+    }
+
+    p, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h5, .h6 {
+        color: white !important;
+    }
+
+    * {
+        color: white !important;
+    }
+}
+
+.grid-contact-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: "grid-icon grid-title" ". grid-content" "grid-button grid-button";
+    align-items: center;
+    justify-content: left;
+
+    img {
+        max-width: 100%;
+    }
+
+    .grid-icon {
+        grid-area: grid-icon;
+        line-height: 0;
+        margin-right: 5px;
+    }
+
+    .grid-title {
+        grid-area: grid-title;
+    }
+
+    .grid-content {
+        grid-area: grid-content;
+    }
+
+    .grid-button {
+        grid-area: grid-button;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+

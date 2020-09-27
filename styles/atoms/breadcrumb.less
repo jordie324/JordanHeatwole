@@ -1,0 +1,42 @@
+﻿.breadcrumb-wrapper {
+    color: @almost-black;
+    font-size: 12px;
+    margin-bottom: 15px;
+
+    span[itemprop='itemListElement'] {
+        a.breadcrumb-link {
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 400;
+            margin-right: 9px;
+            margin-left: 9px;
+
+            span {
+                color: @almost-black !important;
+            }
+        }
+
+        &:nth-last-child(1) {
+
+            a.breadcrumb-link {
+                font-weight: 700;
+                margin-right: 0 !important;
+                span {
+                    color: #1078c0 !important;
+                }
+            }
+        }
+
+        &:nth-child(1) {
+            a.breadcrumb-link {
+                margin-left: 0 !important;
+            }
+        }
+    }
+}
+
+.breadcrumb-blog {
+    .breadcrumb-wrapper {
+        margin-bottom: 5px !important;
+    }
+}

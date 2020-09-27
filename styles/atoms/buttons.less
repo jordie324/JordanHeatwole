@@ -1,0 +1,145 @@
+﻿.btn {
+    border-radius: 100px;
+    line-height: 1.5;
+    font-weight: 600;
+    border: none;
+    padding: 10px 50px;
+
+    @media (max-width:575px) {
+        white-space: normal;
+    }
+
+    position: relative;
+    transition: all 250ms ease-in-out;
+    width: auto;
+
+    &:after {
+        opacity: 0;
+        content: "";
+        display: block;
+        width: 6px;
+        height: 10px;
+        background: url("img/btn-hover.png");
+        position: absolute;
+        right: 50px;
+        top: 50% !important;
+        transition: all 300ms ease-in-out;
+        transform: translateY(-50%) !important;
+    }
+
+    &:hover {
+        &:after {
+            opacity: 1 !important;
+            right: 25px;
+        }
+    }
+
+    &:focus {
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,0);
+    }
+
+    &.btn-primary {
+        background-color: @medium-blue;
+        color: white !important;
+
+        &:hover {
+            background-color: @light-blue;
+        }
+    }
+
+    &.btn-secondary {
+        background-color: transparent;
+        border: 2px solid @medium-blue;
+        color: @medium-blue;
+
+        &:hover {
+            color: white;
+            border: 2px solid @light-blue;
+            background-color: @light-blue;
+        }
+    }
+
+    &.btn-tertiary {
+        color: white;
+        background-color: @almost-black;
+
+        &:hover {
+            background-color: @dark-gray;
+        }
+    }
+
+    &.btn-glow {
+        color: white;
+        background-color: @medium-blue;
+        box-shadow: 0px 0px 0px 5px rgba(16, 120, 192, 0.2);
+
+        &:hover {
+            background-color: @light-blue;
+        }
+    }
+
+    &.btn-block {
+        width: 100%;
+
+        &:hover {
+            width: 100%;
+        }
+    }
+
+    &.btn-outline {
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+
+        &:hover {
+            color: @medium-blue;
+            border: 2px solid white;
+            background-color: white;
+        }
+    }
+
+    &.btn-dark {
+        color: white;
+    }
+
+    &.btn-danger {
+        color: white;
+    }
+
+    &.btn-success {
+        color: white;
+    }
+
+    &.btn-warning {
+        color: white;
+    }
+
+    &.btn-simple {
+        color: #1078c0;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.34px;
+        padding-left: 0;
+        border-radius: 0;
+        line-height: normal;
+        text-align: left !important;
+        white-space: normal;
+
+        &:after {
+            opacity: 0;
+            content: "";
+            display: inline-block;
+            width: 6px;
+            height: 11px;
+            background: url(img/icon-right-arrow.png);
+            transition: all .3s ease-in-out;
+            margin-left: 10px;
+        }
+
+        &:hover {
+            opacity: 1 !important;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@import url('bootstrap/css/bootstrap.min.css');
+@import url('bootstrap/css/animate.css');
+@import url('variables.less');
+@import url('type.less');
+body {
+    background: #fbfbfb !important;
+}
+
+.tyler {
+    @import url('base.less');
+    @import url('home.less');
+    @import url('inner.less');
+    @import url('components.less');
+    @import url('panes.less');
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: white;
+    .container {
+        @media @desktop-up {
+            width: 1170px !important;
+        }
+    }
+
+    .body-content {
+        position: relative;
+    }
+}
+.svg_all {
+    display: none;
+}
+@import url('fixes.less');
+@import url('responsive-menu.less');

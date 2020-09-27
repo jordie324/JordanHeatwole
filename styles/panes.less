@@ -1,0 +1,278 @@
+﻿.dynamic-pane {
+    padding: 3em 15px;
+
+    @media @desktop-up {
+        &.container-fluid {
+            padding: 3em 0;
+        }
+
+        .container {
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+        .DNNEmptyPane {
+            display: block;
+        }
+    }
+}
+
+.p-0 {
+    .dynamic-pane {
+        padding: 0;
+    }
+}
+
+.layoutContainer {
+    padding: 0;
+}
+
+.bg-blue-circles-bottom {
+    background-image: url('img/bg-blue-circles-bottom.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.bg-gray-circles-bottom {
+    background-image: url('img/bg-gray-circles-bottom.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.bg-gray-circles-bottom-top-right {
+    background-image: url('img/bg-gray-circles-top-right.png'), url('img/bg-gray-circles-bottom-right.png');
+    background-position: top right, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+
+    @media @tablet-up {
+        background-size: inherit;
+    }
+}
+
+.bg-white-circles-top-left-right {
+    background-image: url('img/bg-white-circles-top-left.png'), url('img/bg-white-circles-top-right.png');
+    background-position: top left, top right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+    background-color: #f3f3f8;
+    
+    @media @tablet-up {
+        background-size: inherit;
+    }
+}
+
+.bg-blue-circles-top-right {
+    background-image: url('img/bg-blue-circles-top-right.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+
+    @media @tablet-up {
+        background-size: inherit;
+    }
+}
+
+.bg-blue-circles-bottom-right {
+    background-image: url('img/bg-blue-circles-bottom-right.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+
+    @media @tablet-up {
+        background-size: inherit;
+    }
+}
+
+.bg-gray-circles-top {
+    background-image: url('img/bg-gray-circles-top.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.bg-blue-circles-top {
+    background-image: url('img/bg-blue-circles-top.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.bg-gray-circles-top-right {
+    background-image: url('img/bg-gray-circles-top-right.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+
+    @media @tablet-up {
+        background-size: inherit;
+    }
+}
+
+.bg-gray-circles-bottom-right {
+    background-image: url('img/bg-gray-circles-bottom-right.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+
+    @media @tablet-up {
+        background-size: inherit;
+    }
+}
+
+.bg-solid-gray-y-border {
+    border-top: 1px solid #d1d2da;
+    border-bottom: 1px solid #d1d2da;
+    background-color: #f3f3f8;
+
+    .events {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.bg-solid-gray {
+    background-color: #f3f3f8;
+}
+
+.bg-border-y-gray {
+    border-top: 1px solid #d1d2da;
+    border-bottom: 1px solid #d1d2da;
+
+    .dynamic-pane {
+        padding: 0 !important;
+    }
+}
+
+.bg-almost-black-circles-top-bottom {
+    background-image: url('img/bg-almost-black-circles-top-bottom.png');
+    background-color: #30333a;
+    background-size: contain;
+    padding: 5em 0;
+
+    .Head {
+        color: white;
+    }
+}
+
+.many-blue-circles-bottom {
+    background-image: url('img/many-blue-circles-bottom.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.call-to-action-and-quote {
+    .pane {
+        padding: 0;
+        position: relative;
+
+        .DnnModule-DNN_HTML {
+            padding: 25px;
+
+            @media @tablet-up {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            @media @desktop-up {
+                padding-left: 35px;
+                padding-right: 35px;
+            }
+
+            @media (min-width:1200px) {
+                padding-left: 133px;
+                padding-right: 41px;
+            }
+        }
+    }
+
+    .quoteblock {
+        @media (min-width: 1200px) {
+            padding-left: 41px;
+
+            &:before {
+                display: block;
+                content: '';
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 13px 0 13px 15px;
+                border-color: transparent transparent transparent #ffffff;
+                position: absolute;
+                left: 0px;
+                z-index: 100;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+
+        .container {
+            width: 100% !important;
+
+            @media @desktop-up {
+                .title {
+                    padding-right: 136px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+.DNNEmptyPane {
+    display: none;
+}
+
+.col-padding {
+    .pane {
+        padding: 0 18px !important;
+
+        &:first-of-type {
+            padding: 0 18px 0 0 !important;
+        }
+
+        &:last-of-type {
+            padding: 0 0 0 18px !important;
+        }
+    }
+}
+
+.ModTylerRelatedResourcesC {
+    background-color: #f3f3f8;
+
+    .CoveoSearchInterface {
+        .container {
+            &.padding {
+                padding: 50px 0 60px 0;
+            }
+        }
+    }
+}
+
+.details-type {
+    .dynamic-pane {
+        .inner-page-hero {
+            .container {
+                width: 100% !important;
+
+                @media @desktop-up {
+                    width: 83.5% !important;
+                    max-width: 100% !important;
+                    margin: 0 auto !important;
+                }
+
+                .title, .description {
+                    display: none !important;
+                }
+            }
+        }
+
+        .subscribe-jumbotron {
+            margin-bottom: -48px;
+        }
+    }
+}

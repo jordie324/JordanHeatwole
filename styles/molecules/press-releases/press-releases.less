@@ -1,0 +1,71 @@
+.press-releases {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    margin-bottom: 3rem;
+
+    @media @desktop-up {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .press-image {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-size: cover;
+        margin-bottom: 15px;
+        background-position: center center;
+
+        @media @desktop-up {
+            width: 100%;
+            height: 230px;
+            margin-bottom: 0px;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+    }
+
+    .press-title {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-bottom: 5px;
+
+        @media @desktop-up {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            margin-bottom: 0px;
+        }
+    }
+
+    .press-description {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin-bottom: 0px;
+
+        @media @desktop-up {
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            margin-bottom: 0px;
+        }
+    }
+
+    .btn {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        align-self: baseline;
+        justify-self: start;
+
+        @media @desktop-up {
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+    }
+}

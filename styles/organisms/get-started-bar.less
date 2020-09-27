@@ -1,0 +1,148 @@
+﻿.get-started-bar {
+    background-color: @medium-blue;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 'get get get';
+    color: white;
+
+    a {
+        color: white;
+        display: inline-flex;
+        align-items: center;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        @media @desktop-lg {
+            &:after {
+                width: 1px;
+                height: 62px;
+                background-color: #d2d2d2;
+                opacity: 0.25;
+                content: " ";
+            }
+
+            &:last-of-type {
+                &:after {
+                    content: none;
+                }
+            }
+        }
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        font-family: @font-family-default;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.35px;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        color: white;
+        min-height: 130px;
+        transition: all 0.5s;
+
+        .title {
+            line-height: normal;
+            font-weight: 600;
+            transition: all 0.5s;
+
+            @media @desktop-up {
+                margin-left: 10px;
+
+                &:after {
+                    transition: all 0.5s;
+                    margin-left: 7px;
+                    opacity: 0;
+                    display: inline-block;
+                    vertical-align: middle;
+                    position: relative;
+                    content: url('img/icon-menu-arrow-green.png');
+                }
+            }
+        }
+
+        em {
+            margin-bottom: 10px;
+            transition: all 0.5s;
+        }
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+
+            .title {
+                &:after {
+                    opacity: 1;
+                }
+            }
+
+            em {
+                color: #cede71;
+            }
+        }
+
+        @media @desktop-lg {
+            padding: 0px;
+        }
+    }
+
+
+    @media @tablet-up {
+        grid-template-areas: 'get';
+        grid-template-columns: repeat(7, auto);
+        grid-template-rows: repeat(0);
+        padding: 0;
+
+        div {
+            min-height: 115px;
+        }
+    }
+
+    .get {
+        background-image: url('img/get-bg-mobile.png');
+        background-repeat: repeat-x;
+        background-position: 38% bottom;
+        grid-area: get;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 26px;
+        font-style: italic;
+        font-family: @font-family-alternate;
+        text-align: center;
+        display: inline-flex;
+        flex-flow: nowrap;
+        background-size: cover;
+        padding-bottom: 30px;
+        text-transform: capitalize;
+        min-height: 100%;
+        height: 90px;
+        color: white;
+
+        &:hover {
+            background-color: @medium-blue;
+        }
+
+        @media @tablet-up {
+            background-image: url('img/get-bg.png');
+            background-repeat: repeat-y;
+            background-position: right center;
+            width: auto;
+            word-spacing: 100vw;
+            text -align: left;
+            justify-content: end;
+            padding-left: 50px;
+            padding-bottom: 0px;
+        }
+
+        @media @desktop-lg {
+            padding-left: 70px;
+            width: 250px;
+        }
+    }
+}

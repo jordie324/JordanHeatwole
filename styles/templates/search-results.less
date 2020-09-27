@@ -1,0 +1,77 @@
+﻿.ModTylerEventsSearchC {
+    .dnnSearchBoxPanel {
+        max-width: none;
+        background-color: transparent;
+    }
+
+    .dnnSearchResultAdvancedTip {
+        margin: 10px 0 0 0;
+    }
+
+    .dnnSearchResultPanel {
+        max-width: none;
+        margin: 0;
+        background-color: transparent;
+    }
+
+    .dnnSearchResultItem-Title {
+        a {
+            color: @medium-blue;
+        }
+    }
+
+    .dnnSearchResultItem-Link {
+        display: none;
+    }
+
+    .dnnSearchResultContainer > .dnnSearchResultItem-Subset {
+        margin: 0 0 20px 0;
+        background: #edf2f8;
+        padding: 25px;
+    }
+
+    .coveo-facet-header-wait-animation {
+        display: none !important;
+    }
+
+    .dnnSearchResultItem {
+        margin: 0 0 20px 0;
+        background: #f5f5f5;
+        padding: 25px;
+    }
+
+    .dnnSearchBox {
+        box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0);
+        border: none;
+        display: flex;
+        background: none;
+
+        &:before {
+            content: " ";
+            background-image: url('img/icon-nav-search.png');
+            width: 50px;
+            height: 24px;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 19px 25px;
+            z-index: 1;
+        }
+
+        input {
+            border-bottom: 1px solid #c9c9c9;
+            padding: 16px 48px;
+            height: 42px;
+        }
+    }
+
+    .dnnSearchResultPanel .dnnSearchResultSortOptions > li.active > a, .dnnSearchResultPanel .dnnSearchResultSortOptions > li.active > a:hover {
+        background-color: @medium-blue;
+        background: -webkit-linear-gradient(top, @medium-blue 0%,@medium-blue 100%);
+        color: white;
+    }
+
+
+    a.dnnSearchBoxClearText {
+        margin: 12px 34px 0 0;
+    }
+}

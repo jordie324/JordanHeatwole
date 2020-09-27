@@ -1,0 +1,56 @@
+﻿.contact-sales-box {
+    width: 100%;
+    background-color: @medium-blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/blue-bg.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin-bottom: 25px;
+
+    @media @tablet-up {
+        padding: 35px 50px;
+    }
+
+    text-align: center;
+
+    * {
+        color: white !important;
+    }
+
+    img {
+        width: 100px;
+        height: 42px;
+        display: block;
+        margin-right: 30px;
+    }
+
+    .title {
+        font-size: 34px;
+        font-weight: 700;
+        font-family: @font-family-alternate;
+        line-height: 1;
+        margin: 10px 0 0 0;
+        display: block;
+    }
+
+    p {
+        font-family: Amplitude;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        max-width: 100%;
+        margin: 15px 0 !important;
+    }
+
+    .btn-outline {
+        width: 100%;
+
+        &:hover {
+            color: @medium-blue !important;
+        }
+    }
+}

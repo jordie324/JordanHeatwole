@@ -1,0 +1,143 @@
+﻿.download-bar {
+    min-height: 60px;
+    background-color: @medium-blue;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 235%;
+
+    @media @tablet-up {
+        padding: 0;
+        flex-direction: row;
+        height: 60px;
+        background-image: linear-gradient(to right, #00aabf, #00aabf);
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: 10% 100%;
+    }
+
+    @media @desktop-lg {
+        background-image: linear-gradient(to right, #5bb6bf, #5bb6bf);
+    }
+
+    em {
+        font-size: 30px !important;
+
+        &:before {
+            margin: 0 !important;
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 0;
+        padding-left: 0;
+        max-width: none;
+
+
+        @media @tablet-up {
+            justify-content: start;
+            align-items: center;
+            flex-direction: row;
+            padding-right: 15px;
+            padding-left: 15px;
+            height: 100%;
+            max-width: inherit;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 600;
+            height: 100%;
+            text-align: center;
+            flex-direction: column;
+            padding: 25px;
+
+            @media @tablet-up {
+                flex-direction: row;
+                padding: 0;
+            }
+        }
+    }
+
+    .whitepaper {
+        background-image: url(img/get-bg-mobile.png);
+        font-size: 18px;
+        background-repeat: repeat-x;
+        background-position: bottom center;
+        width: 100%;
+
+        @media @tablet-up {
+            background-image: url(img/whitepaper-bg.png);
+            background-position: right;
+            padding-right: 15px !important;
+            width: auto;
+            min-width: 25%;
+        }
+
+        @media @desktop-lg {
+            width: auto;
+            min-width: 30%;
+        }
+    }
+
+    .download-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 16px;
+
+        div {
+            padding: 0;
+        }
+
+        @media @tablet-up {
+            flex-direction: row;
+            padding-left: 15px !important;
+        }
+
+        @media @desktop-lg {
+            display: inline-flex !important;
+            justify-content: space-between !important;
+            width: 100%;
+        }
+    }
+
+    span {
+        &.text {
+            line-height: normal;
+            margin: 15px 0;
+
+            @media @tablet-up {
+                margin: 0 10px;
+            }
+
+            @media @desktop-lg {
+                text-align: left;
+            }
+        }
+    }
+
+    .btn {
+        height: 36px;
+        line-height: 31px;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0 18px;
+
+        &:hover {
+            &:after {
+                opacity: 0 !important;
+            }
+        }
+    }
+}
