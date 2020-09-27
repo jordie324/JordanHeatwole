@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tyler .our-solutions-horizontal {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border: 2px solid rgba(47, 159, 192, .2);
+  border-bottom: none;
+  padding-bottom: 25px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+@media screen and (min-width:768px) {
+  .tyler .our-solutions-horizontal {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.tyler .our-solutions-horizontal a {
+  text-decoration: none;
+  color: #3c3f46;
+}
+
+.tyler .our-solutions-horizontal .solutions-list-horizontal {
+  display: block;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+  margin-top: 25px;
+}
+
+@media screen and (min-width:576px) {
+  .tyler .our-solutions-horizontal .solutions-list-horizontal {
+    width: 50%;
+  }
+}
+
+.tyler .our-solutions-horizontal .solutions-list-horizontal em {
+  display: block;
+  color: #2f9fc0;
+}
+
+.tyler .our-solutions-horizontal .solutions-list-horizontal em:before {
+  margin: 0 !important;
+}
+
+@media screen and (min-width:768px) {
+  .tyler .our-solutions-horizontal .solutions-list-horizontal {
+    width: 25%;
+    border-right: 2px solid rgba(47, 159, 192, .2);
+    padding: 15px 0 0 30px;
+    margin-bottom: 0;
+  }
+
+  .tyler .our-solutions-horizontal .solutions-list-horizontal:first-child {
+    padding: 15px 0 0;
+  }
+
+  .tyler .our-solutions-horizontal .solutions-list-horizontal:last-child {
+    border: none;
+    margin-top: 0px;
+  }
+}
+
+.tyler .our-solutions-horizontal .solutions-list-horizontal .title {
+  display: block;
+  color: #3c3f46;
+  font-family: Amplitude, Sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.tyler .our-solutions-horizontal .solutions-list-horizontal .btn {
+  padding-left: 30px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  border-radius: 0;
+  color: #1078c0;
+  white-space: normal;
+  line-height: normal;
+}
+
+.tyler .our-solutions-horizontal .solutions-list-horizontal .btn:hover {
+  background-color: #f5fafc;
+  text-decoration: none;
+}
